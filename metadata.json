@@ -1,0 +1,6 @@
+{
+  "name": "Partner",
+  "description": "Your day. Your goals. Your progress. Personal productivity companion designed for ADHD-friendly usability.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

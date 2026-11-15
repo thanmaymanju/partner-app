@@ -1,0 +1,223 @@
+---
+name: Partner
+colors:
+  surface: '#fafaf2'
+  surface-dim: '#dadad4'
+  surface-bright: '#fafaf2'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f4f4ed'
+  surface-container: '#eeeee7'
+  surface-container-high: '#e8e9e2'
+  surface-container-highest: '#e3e3dc'
+  on-surface: '#1a1c18'
+  on-surface-variant: '#554338'
+  inverse-surface: '#2f312c'
+  inverse-on-surface: '#f1f1ea'
+  outline: '#887367'
+  outline-variant: '#dbc1b3'
+  surface-tint: '#984800'
+  primary: '#984800'
+  on-primary: '#ffffff'
+  primary-container: '#f28c45'
+  on-primary-container: '#622c00'
+  inverse-primary: '#ffb689'
+  secondary: '#765847'
+  on-secondary: '#ffffff'
+  secondary-container: '#fdd5bf'
+  on-secondary-container: '#795a49'
+  tertiary: '#636032'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#aca873'
+  on-tertiary-container: '#3f3d12'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#ffdbc8'
+  primary-fixed-dim: '#ffb689'
+  on-primary-fixed: '#311300'
+  on-primary-fixed-variant: '#743500'
+  secondary-fixed: '#ffdbc9'
+  secondary-fixed-dim: '#e6bfa9'
+  on-secondary-fixed: '#2b1609'
+  on-secondary-fixed-variant: '#5c4131'
+  tertiary-fixed: '#eae5ab'
+  tertiary-fixed-dim: '#cdc991'
+  on-tertiary-fixed: '#1e1c00'
+  on-tertiary-fixed-variant: '#4b481d'
+  background: '#fafaf2'
+  on-background: '#1a1c18'
+  surface-variant: '#e3e3dc'
+typography:
+  display-lg:
+    fontFamily: Manrope
+    fontSize: 36px
+    fontWeight: '600'
+    lineHeight: 44px
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Manrope
+    fontSize: 28px
+    fontWeight: '600'
+    lineHeight: 36px
+    letterSpacing: -0.01em
+  headline-md:
+    fontFamily: Manrope
+    fontSize: 22px
+    fontWeight: '600'
+    lineHeight: 28px
+    letterSpacing: 0em
+  headline-sm:
+    fontFamily: Manrope
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 24px
+    letterSpacing: 0em
+  body-lg:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+    letterSpacing: 0.01em
+  body-md:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+    letterSpacing: 0.015em
+  body-sm:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 16px
+    letterSpacing: 0.02em
+  label-lg:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '500'
+    lineHeight: 20px
+    letterSpacing: 0.01em
+  label-md:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '500'
+    lineHeight: 16px
+    letterSpacing: 0.03em
+  label-sm:
+    fontFamily: Inter
+    fontSize: 11px
+    fontWeight: '600'
+    lineHeight: 14px
+    letterSpacing: 0.04em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-sm: 0.75rem
+  margin: 1rem
+  margin-tablet: 1.5rem
+  space-2xs: 0.125rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2rem
+  space-2xl: 3rem
+---
+
+## Brand & Style
+
+The design system establishes an empathetic, grounding, and high-clarity environment tailored for academic productivity, executive function support, and cognitive ease. Targeted at university students managing multifaceted schedules, deadlines, and neurodivergent workflows (such as ADHD), the visual style merges modern Material Design 3 discipline with warm, humanistic minimalism. 
+
+Rather than clinical, high-friction dashboard density, the system prioritizes intentional breathing room, soft structural affordances, and low-arousal clarity. It uses soft apricot hues paired with immaculate warm-white surfaces to alleviate visual fatigue and academic anxiety. The emotional tone is supportive, focused, non-judgmental, and dependable. Interactions feel predictable, fluid, and tactile without introducing overwhelming micro-interactions or chaotic visual noise.
+
+## Colors
+
+The palette leverages a warm apricot primary tone (`#F28C45`) anchored by pure and softened white surfaces (`#FFFFFF` and `#FAFAF8`) to create high legibility without harsh glare. 
+
+- **Primary Roles**: The primary tone is reserved for primary actions, active states, key progress indicators, and focal points. Tonal containers (`#FFF0E4` and `#FFD9BD`) provide low-friction surface fills for highlighted task cards, active navigation, and urgent badges without inducing panic.
+- **Secondary & Tertiary**: Earthy, warm neutrals supply supportive depth for auxiliary categories, calendar tagging, and course classification.
+- **Surface & Background Architecture**: The canvas rests on `#FAFAF8`, while raised elements and focal cards sit on `#FFFFFF`. Tonal container shifts establish semantic hierarchy rather than aggressive drop shadows.
+- **Borders & Dividers**: Hairline borders use `#EEEEEC` across cards and text inputs to maintain boundaries without drawing focus away from user-generated content.
+- **Semantic Feedback**: Success states rely on a soft sage green, warnings on a warm amber, and errors on a subdued terracotta red—ensuring standard semantic conventions without triggering sensory overload.
+
+## Typography
+
+The typography pairings strike a balance between geometric, friendly structure and neutral, highly scannable clarity:
+
+- **Headlines (`Manrope`)**: Provides geometric warmth and clear architectural stability. Open counters and rounded geometry make upcoming assignments and daily briefings feel approachable rather than intimidating.
+- **Body & Labels (`Inter`)**: Deployed for readability across dense schedules, sub-tasks, and long-form note previews. With tall x-height and distinct letterforms, it mitigates reading fatigue for ADHD users.
+- **Hierarchy Rules**: 
+  - Never place consecutive text elements with identical weights and close sizes. Pair a medium headline (`headline-sm`) with subdued body copy (`body-md`) or crisp label badges (`label-sm`).
+  - Keep line lengths bounded to 45–65 characters on wider surfaces to prevent cognitive drift.
+  - Maintain generous line-height ratios across mobile viewports to prevent lines of task text from collapsing visually into one another.
+
+## Layout & Spacing
+
+The layout model is anchored to a mobile-first 393x852dp Android portrait baseline, scaling dynamically into tablet split-views.
+
+- **Grid Structure**:
+  - **Mobile (320dp - 599dp)**: Single column fluid layout or 4-column system with `1rem` (16dp) gutters and `1rem` (16dp) outer canvas margins. Sticky navigation rests in an ergonomic bottom app bar or compact sheet.
+  - **Tablet (600dp - 904dp)**: 8-column layout with `1.5rem` (24dp) margins and gutters, supporting dual-pane task-detail views.
+- **Vertical Rhythm**: Built strictly on an 8dp (0.5rem) spatial scale, with 4dp (0.25rem) increments used exclusively for micro-alignments such as chip padding, list icon offsets, and form field metadata.
+- **ADHD-Friendly Chunking**: Related task items must be grouped within dedicated card surfaces using `space-md` (16dp) padding, with at least `space-lg` (24dp) separating distinct thematic sections (e.g., "Today's Priorities" vs. "Upcoming Exams").
+
+## Elevation & Depth
+
+To preserve an unhurried, calm visual tone and minimize sensory distraction, the design system utilizes surface layering and low-contrast boundaries in place of prominent drop shadows:
+
+- **Level 0 (Flat)**: Baseline canvas (`#FAFAF8`). Static non-interactive views, dividers, and background containers.
+- **Level 1 (Card Rest)**: Pure white (`#FFFFFF`) surface enclosed by a precise 1dp hairline border in `#EEEEEC`. Resting elevation is completely flat or complemented by an imperceptible ambient contact shadow: `0 1px 3px rgba(34, 30, 24, 0.04)`.
+- **Level 2 (Interactive Active / Floating Elements)**: Floating Action Buttons (FABs) and active dragging states use subtle warm ambient shadows: `0 4px 12px rgba(242, 140, 69, 0.12), 0 2px 4px rgba(34, 30, 24, 0.04)`.
+- **Level 3 (Modals & Bottom Sheets)**: Overlaid surfaces sit on `#FFFFFF` with a diffuse scrim (`rgba(30, 26, 23, 0.32)`) and an upward soft blur: `0 -4px 24px rgba(34, 30, 24, 0.08)`.
+- **Depth Metaphor**: Depth represents focus. When an item is selected or being prioritized, its background shifts to a subtle warm container (`#FFF0E4`) while non-focused items maintain neutral Level 1 resting states.
+
+## Shapes
+
+The design system implements a consistent **Rounded** geometry (`roundedness: 2`), translating Material Design 3 shape language into a softer, approachable aesthetic:
+
+- **Base Radius (`0.5rem` / 8dp)**: Applied to text input fields, sub-task list rows, selection controls, and contextual menus.
+- **Medium Radius (`rounded-lg` / `1rem` / 16dp)**: The standard shape for task cards, event modules, dialog cards, and bottom sheet top edges.
+- **Large Radius (`rounded-xl` / `1.5rem` / 24dp)**: Utilized for prominent feature highlights, time-blocking blocks, and hero metric containers.
+- **Full Pill (`9999px`)**: Exclusively reserved for status chips, filter tags, round action icons, and primary call-to-action buttons.
+
+## Components
+
+### Buttons
+- **Filled (Primary)**: Rounded pill shape (`9999px`), `#F28C45` background with pure white typography (`label-lg`), minimum height of 48dp for accessibility. No border, tactile 0.98x scale transition on press.
+- **Tonal (Secondary)**: `#FFF0E4` container with `#964B17` label. Ideal for secondary actions like "Add Subtask" or "Snooze".
+- **Outlined**: 1dp `#EEEEEC` border on `#FFFFFF` background. Used for tertiary actions such as "Discard" or "Cancel".
+
+### Cards
+- Constructed on pure white (`#FFFFFF`) with a 16dp corner radius and a 1dp `#EEEEEC` hairline perimeter border.
+- Internal padding is set to `1rem` (16dp).
+- Cards feature minimal single-line divider rules (`#F5F5F3`) between subtasks to maintain visual cohesion without clutter.
+
+### Chips & Tags
+- Height: 32dp. Full pill radius (`9999px`).
+- Filter chips: `#FAFAF8` background with `#EEEEEC` border and neutral text (`label-md`). 
+- Selected chips: `#FFF0E4` container with `#F28C45` 1.5dp border and active label.
+- Category tags: Paired with minimal 1.5dp stroke icons (e.g., a notebook for study, a cup for break).
+
+### Lists & Task Items
+- Single-line or two-line list items have a minimum touch target height of 52dp.
+- Checkboxes are placed with generous left spacing (`space-sm`).
+- Completed items fade to 50% opacity with a fine horizontal strikethrough in neutral gray, delivering immediate visual closure without layout shifts.
+
+### Checkboxes & Radio Buttons
+- Checkboxes: 20x20dp box with 6dp corner radius. Unchecked state uses a 1.5dp border in `#D4D4D0`. Checked state smoothly animates to a solid `#F28C45` fill with a white checkmark.
+- Radio Buttons: Standard 20dp concentric circular toggle with `#F28C45` core when active.
+
+### Input Fields
+- Outlined style with 8dp corner radius, 1dp border in `#EEEEEC`, resting on pure white (`#FFFFFF`).
+- Focused state highlights the border with `#F28C45` (1.5dp thickness) and shows a soft warm focus ring (`rgba(242, 140, 69, 0.2)`).
+- Helper text and error messages sit 4dp below the field in `body-sm`.
+
+### ADHD Focus Utilities (System-Specific)
+- **Focus Timer Anchor**: A persistent circular progress ring in `#F28C45` with a `#FFF0E4` track, designed to sit anchored at the bottom edge during active study sessions.
+- **Priority Indicator**: A vertical 3dp bar along the left edge of high-urgency task cards using the primary accent, providing pre-attentive cues without alert banners.
